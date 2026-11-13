@@ -40,7 +40,7 @@ polars = [
 
 [dependency-groups]
 dev = [
-    "numba>=0.58.0",
+    "numba>=0.68.1",
     "pip",
     "pre-commit",
     "pyarrow",
