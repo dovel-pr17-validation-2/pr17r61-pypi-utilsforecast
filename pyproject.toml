@@ -25,7 +25,7 @@ dependencies = [
     "numpy",
     "packaging",
     "pandas>=1.5",
-    "narwhals>=2.0",
+    "narwhals>=2.28.0",
 ]
 
 [project.optional-dependencies]
@@ -51,7 +51,7 @@ dev = [
     "polars[numpy]>=1.0",
     "pytest",
     "pytest-cov",
-    "fugue[dask,spark]>=0.9.4",
+    "fugue[dask,spark]>=0.9.9",
     "dask",
     "pip-licenses",
     "mkdocstrings-parser@git+https://github.com/Nixtla/mkdocstrings-parser.git@main",
